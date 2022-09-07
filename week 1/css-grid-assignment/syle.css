@@ -1,0 +1,146 @@
+.container{
+ height: 100rem;
+ display: grid;
+ 
+ grid-template-columns: repeat(4,1fr);
+ grid-template-rows: repeat(9,1fr);
+
+ grid-template-areas: 
+ 
+ "r1 r1 r2 r2 "
+ "r1 r1 r2 r2 "
+ "r3 r3 r4 r4 " 
+ "r5 r6 r7 r8 " 
+ "r9 r9 r10 r10 " 
+ "r11 r11 r12 r12 " 
+ "r13 r13 r14 r14 " 
+ "r13 r13 r14 r14 " 
+ "r15 r15 r15 r15 " 
+}
+.item{
+ border:  1px solid red;
+ background-color: antiquewhite;
+}
+.r1{
+ background-color: rgb(255, 255, 183);
+ grid-area: r1;
+
+}
+.r2{
+ background-color: rebeccapurple;
+ grid-area: r2;
+
+}
+.r3{
+ background-color: beige;
+ grid-area: r3;
+}
+.r4{
+ grid-area: r4;
+ background-color: rgb(90, 153, 51);
+}
+.r5{
+ grid-area: r5;
+ background-color: rgb(153, 51, 97);
+}
+.r6{
+ grid-area: r6;
+ background-color: rgb(153, 138, 51);
+}
+
+.r7{
+ grid-area: r7;
+ background-color: rgba(158, 195, 132, 0.712);
+}
+.r8{
+ grid-area: r8;
+}
+ 
+.r9{
+ grid-area: r9;
+ background-color: rgb(33, 9, 57);
+}
+
+.r10{
+ grid-area: r10;
+ background-color: rgb(143, 153, 51);
+}
+.r11{
+ grid-area: r11;
+ background-color: rgb(153, 76, 51);
+}
+.r12{
+ grid-area: r12;
+ background-color: rgb(3, 28, 170);
+}
+.r13{
+ grid-area: r13;
+ background-color: rgb(109, 216, 168);
+}
+.r14{
+ grid-area: r14;
+ background-color: rgba(99, 24, 219, 0.225);
+}
+.r15{
+ grid-area: r15;
+ background-color: rebeccapurple;
+}
+
+ 
+iframe{
+ margin-left: 20%;
+}
+@media all  and (min-width: 300px) and (max-width:600px){
+ .container{
+  height: auto;
+  display: grid;
+  
+  grid-template-columns: repeat(1,1fr);
+  grid-template-rows: repeat(15,1fr);
+ 
+  grid-template-areas: 
+  
+  "r1"
+  "r2"
+  "r3" 
+  "r4" 
+  "r5" 
+  "r6" 
+  "r7" 
+  "r8" 
+  "r9" 
+  "r10"
+  "r11"
+  "r12"
+  "r13"
+  "r14"
+  
+
+ }
+ iframe{
+  display: none;
+ }
+
+}
+
+@media all and (min-width: 601px) and (max-width:800px){
+
+ .container{
+  height: 100rem;
+  display: grid;
+  
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(8,1fr);
+ 
+  grid-template-areas: 
+  
+  "r1 r2" 
+  "r3 r4" 
+  "r5 r6"
+  "r7 r8" 
+  "r9 r10" 
+  "r11 r12" 
+  "r13 r14" 
+  "r15 r15" 
+ }
+}
