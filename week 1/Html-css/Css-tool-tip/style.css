@@ -1,0 +1,140 @@
+.btngrp{
+ width: 60%;
+ margin: auto;
+ margin-top: 20%;
+ display:  flex;
+ justify-content:  space-evenly;
+
+}
+ 
+
+
+.left{
+ display: inline-block;
+ position:  relative;
+width: auto;
+height: 30px;
+padding: 5px 5px 5px 5px;
+background-color: teal;
+}
+
+.lefttool{
+ visibility: hidden;
+ width: 150px;
+ background-color: black;
+ color: white;
+ text-align: center;
+ border-radius: 5px;
+ padding: 5px;
+ position: absolute;
+ z-index: -1;
+ top: -5px;
+ right: 105%;
+
+}
+
+.left:hover .lefttool{
+visibility: visible;
+}
+.left:hover {
+ margin-right: 10px;
+}
+.bottom{
+ display: inline-block;
+ position:  relative;
+ width: auto;
+ height: 30px;
+ padding: 5px 5px 5px 5px;
+ background-color: teal;
+}
+
+.bottomtool{
+ visibility: hidden;
+ width: 150px;
+ background-color: black;
+ color: white;
+ text-align: center;
+ border-radius: 5px;
+ padding: 5px;
+ content: " ";
+ position: absolute;
+ top: 100%; /* At the bottom of the tooltip */
+ left: 100%;
+ margin-left: -100px
+ 
+
+}
+.bottom:hover {
+ margin-top: 10px;
+}
+
+.bottom:hover .bottomtool{
+visibility: visible;
+}
+
+.top{
+ display: inline-block;
+ position:  relative;
+ width: auto;
+ height: 30px;
+ padding: 5px 5px 5px 5px;
+ background-color: teal;
+ top: 0;
+ transition: top ease 0.5s;
+}
+
+.toptool{
+ visibility: hidden;
+ width: 150px;
+ background-color: black;
+ color: white;
+ text-align: center;
+ border-radius: 5px;
+ padding: 5px;
+ position: absolute;
+ z-index: -1;
+ bottom: 100%;
+  left: 100%;
+  margin-left: -100px
+}
+
+
+.top:hover .toptool{
+visibility: visible;
+}
+.top:hover {
+ top: -50px;
+
+}
+
+.right{
+ display: inline-block;
+ position:  relative;
+ width: auto;
+ height: 30px;
+ padding: 5px 5px 5px 5px;
+ background-color: teal;
+}
+
+.righttool{
+ visibility: hidden;
+ width: 150px;
+ background-color: black;
+ color: white;
+ text-align: center;
+ border-radius: 5px;
+ padding: 5px;
+ position: absolute;
+ z-index: -1;
+ top: -5px;
+  left: 105%;
+
+}
+
+.right:hover .righttool{
+visibility: visible;
+
+}
+.right:hover {
+ margin-left: 10px;
+}
