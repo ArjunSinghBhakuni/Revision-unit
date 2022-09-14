@@ -1,0 +1,16 @@
+.imgBox{
+background-color: red;
+ background-image: url('photo.png');
+ position: relative;
+ height: 145px;
+ width: 145px;
+}
+
+
+.whiteBox{
+ display: inline-block;
+ border: 1px solid red;
+ margin: 10px;
+ height: 155px;
+ width: 155px;
+}
