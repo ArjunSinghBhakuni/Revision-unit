@@ -42,9 +42,18 @@ var arr = [1, 2, 3, 4, 5];
 
 
 // change var to let 
-for(let i=0;i<arr.length;i++){
+// for(let i=0;i<arr.length;i++){
 
- setTimeout(()=>
- console.log(arr[i],i)
- ,i*1000)
-}
+//  setTimeout(()=>
+//  console.log(arr[i],i)
+//  ,i*1000)
+// }
+
+// strict mode
+// we cant asscess this 
+// it will come undifined
+
+
+// DSA
+// input => 'key,value,pair,javascript'
+// output => {key:{value:{pair:{javascript:{}}}}}
