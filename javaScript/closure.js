@@ -1,15 +1,32 @@
-//   function x() {
-//    var a = 10
-//     function y() {
-//       console.log(a);
-//     }
-//   y()
-//    a=100
-//   }
+ 
 
-//  var z =  x();
-//  console.log(z)
-// z()
+
+
+ 
+ // function x() {
+ //   var a = 10
+ //    function y() {
+ //      console.log(a);
+ //    }
+ // return y
+ //   a=100
+ //  }
+
+
+
+ // var z =  x();  
+ // console.log(z)
+ // z()
+
+// function sayWord(word) {
+// 	return () => console.log(word);
+// }
+
+// const sayHello = sayWord("hello");
+
+// sayHello(); // "hel
+
+
 
 // // set timeout of loop
 
