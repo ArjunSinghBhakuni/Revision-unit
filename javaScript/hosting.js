@@ -1,3 +1,9 @@
+console.log(a)
+   a = 10
+ 
+
+
+
 // // function a() {
 // //  console.log("hi");
 // // }
@@ -59,8 +65,9 @@
 
 // console.log(out)
 
-var arr =[1]
-arr.reduce((a,b)=>{
-  console.log(a)
-  console.log(b)
-})
+// var arr =[1]
+// arr.reduce((a,b)=>{
+//   console.log(a)
+//   console.log(b)
+// })
+
